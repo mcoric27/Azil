@@ -1,0 +1,52 @@
+{
+  "zivotinje": [
+    {
+      "id": 1,
+      "ime": "Molly",
+      "vrsta": "mačka",
+      "godine": 3,
+      "udomljen": false,
+      "napomena": "Voli se igrati s igračkama"
+    },
+    {
+      "id": 2,
+      "ime": "Max",
+      "vrsta": "pas",
+      "godine": 2,
+      "udomljen": false,
+      "napomena": ""
+    },
+    {
+      "id": 3,
+      "ime": "Whiskers",
+      "vrsta": "mačka",
+      "godine": 4,
+      "udomljen": true,
+      "napomena": "Jako je pitoma"
+    },
+    {
+      "ime": "Beni",
+      "vrsta": "pas",
+      "godine": "10",
+      "udomljen": false,
+      "napomena": "Grize",
+      "id": 4
+    },
+    {
+      "ime": "Lala",
+      "vrsta": "mačka",
+      "godine": "3",
+      "udomljen": false,
+      "napomena": "Agresivna",
+      "id": 5
+    },
+    {
+      "ime": "po",
+      "vrsta": "mačka",
+      "godine": "6",
+      "udomljen": true,
+      "napomena": "Mirna",
+      "id": 6
+    }
+  ]
+}

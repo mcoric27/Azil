@@ -1,0 +1,51 @@
+.map-container {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.map-container .leaflet-marker-icon,
+.map-container .leaflet-marker-shadow {
+  display: none;
+}
+
+.map-container .leaflet-popup-content-wrapper {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #0066cc;
+}
+
+form button {
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+form button:hover {
+  background-color: #0059b3;
+}

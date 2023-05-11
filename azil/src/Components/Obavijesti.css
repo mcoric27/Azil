@@ -1,0 +1,60 @@
+/* stil za ul */
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* stil za li */
+  li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  /* stil za naslov */
+  strong {
+    font-size: 1.2rem;
+  }
+  
+  /* stil za vrijeme */
+  span {
+    font-size: 0.8rem;
+    color: gray;
+  }
+  
+  /* stil za gumb */
+  button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  /* stil za gumb kad je onemogućen */
+  button:disabled {
+    background-color: gray;
+    cursor: default;
+  }
+  
+  /* stil za div unutar li za naslov */
+  li > div:first-of-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* stil za div unutar li za tekst */
+  li > div:last-of-type {
+    margin-top: 10px;
+    width: 100%;
+  }
+  

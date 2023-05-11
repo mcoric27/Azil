@@ -1,0 +1,60 @@
+.animal-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .animal-list-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .animal-list-filters {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  
+  .animal-list-filter {
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .animal-list-filter label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .animal-list-filter select,
+  .animal-list-filter input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .animal-list-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .animal-list-table th,
+  .animal-list-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .animal-list-table th {
+    background-color: #eee;
+    font-weight: bold;
+  }
+  
+  .animal-list-table .udomljena {
+    background-color: #cfc;
+  }
+  
+  .animal-list-table .nije-udomljena {
+    background-color: #fcc;
+  }
+  
